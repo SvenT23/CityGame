@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2714D6B2167F32A500FC77B8 /* LoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714D6B1167F32A500FC77B8 /* LoginScreen.m */; };
+		27A59B29167F4AA800B23420 /* LogoGroep01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27A59B28167F4AA800B23420 /* LogoGroep01.jpg */; };
+		27ACD26D1681EF4A001203F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACD26C1681EF4A001203F9 /* CoreLocation.framework */; };
+		27ACD278168206A0001203F9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACD277168206A0001203F9 /* AssetsLibrary.framework */; };
+		27ACD27B16820A3A001203F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ACD27A16820A3A001203F9 /* SecondViewController.m */; };
+		27B6E731168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6E730168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		27D8511116AC3D3000337D7E /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8511016AC3D3000337D7E /* NSDataAdditions.m */; };
+		27E0F4D516AB3DBD00148ACA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0F4D416AB3DBD00148ACA /* ChatViewController.m */; };
 		27F5EEBE167CC35F00F322A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EEBD167CC35F00F322A0 /* UIKit.framework */; };
 		27F5EEC0167CC35F00F322A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EEBF167CC35F00F322A0 /* Foundation.framework */; };
 		27F5EEC2167CC35F00F322A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EEC1167CC35F00F322A0 /* CoreGraphics.framework */; };
@@ -21,7 +29,6 @@
 		27F5EEDD167CC35F00F322A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5EEDC167CC35F00F322A0 /* FirstViewController.m */; };
 		27F5EEDF167CC35F00F322A0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F5EEDE167CC35F00F322A0 /* first.png */; };
 		27F5EEE1167CC35F00F322A0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F5EEE0167CC35F00F322A0 /* first@2x.png */; };
-		27F5EEE4167CC35F00F322A0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5EEE3167CC35F00F322A0 /* SecondViewController.m */; };
 		27F5EEE6167CC35F00F322A0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F5EEE5167CC35F00F322A0 /* second.png */; };
 		27F5EEE8167CC35F00F322A0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F5EEE7167CC35F00F322A0 /* second@2x.png */; };
 		27F5EEF0167CC35F00F322A0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EEEF167CC35F00F322A0 /* SenTestingKit.framework */; };
@@ -29,6 +36,7 @@
 		27F5EEF2167CC35F00F322A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EEBF167CC35F00F322A0 /* Foundation.framework */; };
 		27F5EEFA167CC35F00F322A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F5EEF8167CC35F00F322A0 /* InfoPlist.strings */; };
 		27F5EEFD167CC35F00F322A0 /* CityGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5EEFC167CC35F00F322A0 /* CityGameTests.m */; };
+		27F5EF09167CCFD900F322A0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F5EF08167CCFD900F322A0 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2714D6B0167F32A500FC77B8 /* LoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreen.h; sourceTree = "<group>"; };
+		2714D6B1167F32A500FC77B8 /* LoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreen.m; sourceTree = "<group>"; };
+		27A59B28167F4AA800B23420 /* LogoGroep01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LogoGroep01.jpg; sourceTree = "<group>"; };
+		27ACD26C1681EF4A001203F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		27ACD277168206A0001203F9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		27ACD27A16820A3A001203F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		27B6E72F168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		27B6E730168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		27D8510F16AC3D3000337D7E /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		27D8511016AC3D3000337D7E /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		27E0F4D316AB3DBD00148ACA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		27E0F4D416AB3DBD00148ACA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		27F5EEB9167CC35F00F322A0 /* CityGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F5EEBD167CC35F00F322A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27F5EEBF167CC35F00F322A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +82,6 @@
 		27F5EEDE167CC35F00F322A0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		27F5EEE0167CC35F00F322A0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		27F5EEE2167CC35F00F322A0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		27F5EEE3167CC35F00F322A0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		27F5EEE5167CC35F00F322A0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		27F5EEE7167CC35F00F322A0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		27F5EEEE167CC35F00F322A0 /* CityGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +90,7 @@
 		27F5EEF9167CC35F00F322A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27F5EEFB167CC35F00F322A0 /* CityGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityGameTests.h; sourceTree = "<group>"; };
 		27F5EEFC167CC35F00F322A0 /* CityGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGameTests.m; sourceTree = "<group>"; };
+		27F5EF08167CCFD900F322A0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ACD278168206A0001203F9 /* AssetsLibrary.framework in Frameworks */,
+				27ACD26D1681EF4A001203F9 /* CoreLocation.framework in Frameworks */,
+				27F5EF09167CCFD900F322A0 /* MobileCoreServices.framework in Frameworks */,
 				27F5EEBE167CC35F00F322A0 /* UIKit.framework in Frameworks */,
 				27F5EEC0167CC35F00F322A0 /* Foundation.framework in Frameworks */,
 				27F5EEC2167CC35F00F322A0 /* CoreGraphics.framework in Frameworks */,
@@ -97,9 +120,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D8510E16AC3D1200337D7E /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				27D8510F16AC3D3000337D7E /* NSDataAdditions.h */,
+				27D8511016AC3D3000337D7E /* NSDataAdditions.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
 		27F5EEAE167CC35F00F322A0 = {
 			isa = PBXGroup;
 			children = (
+				27B6E72F168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				27B6E730168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				27ACD277168206A0001203F9 /* AssetsLibrary.framework */,
+				27ACD26C1681EF4A001203F9 /* CoreLocation.framework */,
+				27F5EF08167CCFD900F322A0 /* MobileCoreServices.framework */,
 				27F5EEC3167CC35F00F322A0 /* CityGame */,
 				27F5EEF5167CC35F00F322A0 /* CityGameTests */,
 				27F5EEBC167CC35F00F322A0 /* Frameworks */,
@@ -139,9 +176,13 @@
 				27F5EEDE167CC35F00F322A0 /* first.png */,
 				27F5EEE0167CC35F00F322A0 /* first@2x.png */,
 				27F5EEE2167CC35F00F322A0 /* SecondViewController.h */,
-				27F5EEE3167CC35F00F322A0 /* SecondViewController.m */,
+				27ACD27A16820A3A001203F9 /* SecondViewController.m */,
 				27F5EEE5167CC35F00F322A0 /* second.png */,
 				27F5EEE7167CC35F00F322A0 /* second@2x.png */,
+				2714D6B0167F32A500FC77B8 /* LoginScreen.h */,
+				2714D6B1167F32A500FC77B8 /* LoginScreen.m */,
+				27E0F4D316AB3DBD00148ACA /* ChatViewController.h */,
+				27E0F4D416AB3DBD00148ACA /* ChatViewController.m */,
 				27F5EEC4167CC35F00F322A0 /* Supporting Files */,
 			);
 			path = CityGame;
@@ -150,6 +191,8 @@
 		27F5EEC4167CC35F00F322A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27D8510E16AC3D1200337D7E /* Base64 */,
+				27A59B28167F4AA800B23420 /* LogoGroep01.jpg */,
 				27F5EEC5167CC35F00F322A0 /* CityGame-Info.plist */,
 				27F5EEC6167CC35F00F322A0 /* InfoPlist.strings */,
 				27F5EEC9167CC35F00F322A0 /* main.m */,
@@ -261,6 +304,7 @@
 				27F5EEE1167CC35F00F322A0 /* first@2x.png in Resources */,
 				27F5EEE6167CC35F00F322A0 /* second.png in Resources */,
 				27F5EEE8167CC35F00F322A0 /* second@2x.png in Resources */,
+				27A59B29167F4AA800B23420 /* LogoGroep01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +342,11 @@
 				27F5EECA167CC35F00F322A0 /* main.m in Sources */,
 				27F5EECE167CC35F00F322A0 /* AppDelegate.m in Sources */,
 				27F5EEDD167CC35F00F322A0 /* FirstViewController.m in Sources */,
-				27F5EEE4167CC35F00F322A0 /* SecondViewController.m in Sources */,
+				2714D6B2167F32A500FC77B8 /* LoginScreen.m in Sources */,
+				27ACD27B16820A3A001203F9 /* SecondViewController.m in Sources */,
+				27B6E731168B57C1002CF99C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				27E0F4D516AB3DBD00148ACA /* ChatViewController.m in Sources */,
+				27D8511116AC3D3000337D7E /* NSDataAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +426,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,7 +448,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,6 +531,7 @@
 				27F5EF02167CC35F00F322A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27F5EF03167CC35F00F322A0 /* Build configuration list for PBXNativeTarget "CityGameTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +540,7 @@
 				27F5EF05167CC35F00F322A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

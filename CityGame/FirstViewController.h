@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *latitude;
+@property (weak, nonatomic) IBOutlet UILabel *longitude;
+- (IBAction)getLocation:(id)sender;
 
 @end
